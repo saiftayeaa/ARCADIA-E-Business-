@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Arcadia-Log In</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="left">
+      <div class="nav-text">
+
+        <a href="../start page/start page.html">
+        <img src="../general material/white arcadia logo.png" alt="Arcadia" class="nav-logo"></a>
+      </div>
+      <a href="../browse games/browse games.html">Games</a>
+      <a href="#">Community</a>
+      <a href="../library/library.html">Library</a>
+      <a href="#">Support</a>
+      <a href="#">Settings</a>
+    </div>
+    <div class="right">
+      <a href="login.html" style="color:#3b7be6; background:rgba(255,255,255,0.1); padding:8px 20px; border-radius:25px; font-weight:600;">Log In</a>
+      <a href="../signup/signup.html" style="color:#fff; background:linear-gradient(90deg,#3b7be6,#b55fe0); padding:8px 20px; border-radius:25px; font-weight:600; box-shadow:0 4px 15px rgba(59,123,230,0.3);">Sign Up</a>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="card">
+      <div class="left-col">
+        <h1>Log In To Your Account</h1>
+        
+        <label>username</label>
+        <input class="input" placeholder="enter your username" id="username">
+        
+        <label>password</label>
+        <input class="input" placeholder="enter your password" type="password" id="password">
+
+        <button class="btn" id="loginBtn">Log In</button>
+
+        <div class="linkless" id="forgotPassword">forget password</div>
+      <div class="hint">don't have an account 
+        <a href="../signup/signup.html" id="signupLink"><strong>click here</strong></a>
+      </div>
+      </div>
+
+      <div class="right-col">
+        <div class="logo-container">
+          <img class="main-logo" src="../general material/black arcadia logo.png" alt="Arcadia Logo">
+        </div>
+
+        <div class="apps-title">or Log In with</div>
+        
+        <div class="apps-container">
+          <div class="app-item" id="facebookLogin" title="Facebook">
+            <div class="app-icon">
+              <img src="login material/facebook logo.png" alt="Facebook">
+            </div>
+          </div>
+          
+          <div class="app-item" id="googleLogin" title="Google">
+            <div class="app-icon">
+              <img src="login material/google logo.png" alt="Google">
+            </div>
+          </div>
+          
+          <div class="app-item" id="playstationLogin" title="PlayStation">
+            <div class="app-icon">
+              <img src="login material/playstation logo.png" alt="PlayStation">
+            </div>
+          </div>
+          
+          <div class="app-item" id="XLogin" title="X">
+            <div class="app-icon">
+              <img src="login material/X logo.jpg" alt="X">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div>© 2025 Arcadia Inc. All rights reserved. All trademarks are property of their respective owners worldwide. VAT included in all prices where applicable.</div>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Legal</a>
+      <a href="#">Accessibility</a>
+      <a href="#">User Agreement</a>
+      <a href="#">Refunds</a>
+    </div>
+  </footer>
+
+<script src="login.js"></script>
+
+</body>
+</html>
